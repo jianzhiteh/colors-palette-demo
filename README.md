@@ -2,6 +2,8 @@
 
 > This is a sample demo page that displays the color palettes from the npm plugin [nice-color-palettes](https://github.com/Jam3/nice-color-palettes)
 
+[Live Demo](https://jianzhiteh.github.io/colors-palette-demo/)
+
 ## Build Setup
 
 ``` bash
