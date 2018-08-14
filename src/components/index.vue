@@ -7,11 +7,12 @@
             <p>Please head over to their documentation for the usage and more information! <a href="https://github.com/Jam3/nice-color-palettes">https://github.com/Jam3/nice-color-palettes</a></p>
         </div>
         <div id="colors-container">
-            <div v-for="(palette, index) in colorPalettes" :key="index" class="color-row">
-                <div class="row">
-                    <div v-for="(color, index2) in palette" :key="index2" class="col-sm" :style="{'background-color': color}">{{color}}</div>
+            <div class="row">
+                <div v-for="(palette, index) in colorPalettes" :key="index" class="color-row col-sm-3 mb-4">
+                    <div v-for="(color, index2) in palette" :key="index2" class="p-2" :style="{'background-color': color}">{{color}}</div>
                 </div>
             </div>
+            
         </div>
     </div>
 </template>
